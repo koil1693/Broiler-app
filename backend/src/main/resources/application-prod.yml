@@ -1,0 +1,37 @@
+spring:
+  profiles:
+    active: prod
+
+  datasource:
+    # Supabase JDBC URL (NO local fallback in prod)
+    # Example value for DB_URL on Render:
+    # jdbc:postgresql://db.<project-ref>.supabase.co:5432/postgres?sslmode=require
+    url: ${DB_URL}
+    username: ${DB_USER}
+    password: ${DB_PASSWORD}
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      # In prod usually better to use 'validate' or 'none'
+      ddl-auto: validate
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: false
+
+server:
+  # Render injects PORT env var, so let Spring use it
+  port: ${PORT:8080}
+
+app:
+  security:
+    # MUST set this in Render dashboard (no default in prod)
+    jwtSecret: ${JWT_SECRET}
+    jwtExpirationMs: 86400000 # 1 day
+
+logging:
+  level:
+    root: INFO
+    org.springframework.security: WARN
+    com.example.broiler: INFO

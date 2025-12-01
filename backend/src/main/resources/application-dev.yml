@@ -1,0 +1,28 @@
+spring:
+  profiles:
+    active: dev
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/broiler_db}
+    username: ${DB_USER:postgres}
+    password: ${DB_PASSWORD:postgres}
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: true
+
+server:
+  port: 8090
+
+app:
+  security:
+    jwtSecret: ${JWT_SECRET:"change-this-secret-in-prod-please-very-long"}
+    jwtExpirationMs: 86400000
+
+logging:
+  level:
+    org.springframework.security: INFO
+    com.example.broiler: DEBUG # Set logging level to DEBUG for our application package
