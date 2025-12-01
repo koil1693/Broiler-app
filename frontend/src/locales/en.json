@@ -1,0 +1,22 @@
+{
+  "translation": {
+    "dashboard": "Dashboard",
+    "dispatch": "Dispatch",
+    "rates": "Rates",
+    "vendors": "Vendors",
+    "reconciliation": "Reconciliation",
+    "daily_overview": "Daily Overview",
+    "record_payment": "Record Payment",
+    "todays_overview": "Today's Overview",
+    "manage_daily_trips": "Manage your daily trips and orders",
+    "create_new_order": "Create New Order",
+    "todays_trips": "Today's Trips",
+    "view_details": "View Details",
+    "no_trips_scheduled": "No trips scheduled",
+    "get_started_by_creating": "Get started by creating a new order or trip.",
+    "trip_history_last_7_days": "Trip History (Last 7 Days)",
+    "total_trips_per_day": "Total Trips per Day",
+    "number_of_trips": "Number of Trips",
+    "no_historical_data": "No historical trip data available for the last 7 days."
+  }
+}

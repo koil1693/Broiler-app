@@ -1,0 +1,13 @@
+{
+  "name": "broiler-admin-root",
+  "version": "1.0.0",
+  "description": "Root package to run both frontend and backend",
+  "scripts": {
+    "start": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",
+    "start:backend": "cd backend && C:\\Users\\DELL\\.gemini\\tools\\apache-maven-3.9.9\\bin\\mvn spring-boot:run",
+    "start:frontend": "cd frontend && npm run dev"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
