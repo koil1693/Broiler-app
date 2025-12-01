@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e3aa251-0007-41af-baa8-4f58bfd7c073" name="Changes" comment="env changes">
-      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/application-prod.yml" afterDir="false" />
-    </list>
+    <list default="true" id="4e3aa251-0007-41af-baa8-4f58bfd7c073" name="Changes" comment="env changes 1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,12 +71,21 @@
       <option name="project" value="LOCAL" />
       <updated>1764614757106</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="env changes 1">
+      <option name="closed" value="true" />
+      <created>1764615224879</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1764615224879</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="env changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="env changes" />
+    <MESSAGE value="env changes 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="env changes 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

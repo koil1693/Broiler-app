@@ -1,8 +1,5 @@
 spring:
   datasource:
-    # Supabase JDBC URL from env var (no default in prod)
-    # Example DB_URL:
-    # jdbc:postgresql://db.<project-ref>.supabase.co:5432/postgres?sslmode=require
     url: ${DB_URL}
     username: ${DB_USER}
     password: ${DB_PASSWORD}
@@ -10,20 +7,20 @@ spring:
 
   jpa:
     hibernate:
-      ddl-auto: validate   # or 'none', but avoid 'update' in prod if possible
+      ddl-auto: validate   # or 'update' if you want it to manage schema
     show-sql: false
     properties:
       hibernate:
         format_sql: false
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
 
 server:
-  # Render sets PORT env var; use it
   port: ${PORT:8080}
 
 app:
   security:
-    jwtSecret: ${JWT_SECRET}   # must be set in env
-    jwtExpirationMs: 86400000  # 1 day
+    jwtSecret: ${JWT_SECRET}
+    jwtExpirationMs: 86400000
 
 logging:
   level:
