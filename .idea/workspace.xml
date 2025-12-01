@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e3aa251-0007-41af-baa8-4f58bfd7c073" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/application-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/application-prod.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/application.yml" afterDir="false" />
+    <list default="true" id="4e3aa251-0007-41af-baa8-4f58bfd7c073" name="Changes" comment="env changes">
+      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/application-prod.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +65,20 @@
       <option name="presentableId" value="Default" />
       <updated>1763212321832</updated>
     </task>
+    <task id="LOCAL-00001" summary="env changes">
+      <option name="closed" value="true" />
+      <created>1764614757106</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1764614757106</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="env changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="env changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
