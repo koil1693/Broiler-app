@@ -4,7 +4,106 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e3aa251-0007-41af-baa8-4f58bfd7c073" name="Changes" comment="env changes 1" />
+    <list default="true" id="4e3aa251-0007-41af-baa8-4f58bfd7c073" name="Changes" comment="env changes 2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/BroilerApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/config/SecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/dev/DataInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/dev/DataSeeder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/domain/Admin$AdminBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/domain/Admin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/domain/DailyRate$DailyRateBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/domain/DailyRate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/domain/DailySummary$DailySummaryBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/domain/DailySummary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/domain/DeliveryLine$DeliveryLineBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/domain/DeliveryLine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/domain/Driver$DriverBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/domain/Driver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/domain/Order$OrderBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/domain/Order.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/domain/OrderStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/domain/Payment$PaymentBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/domain/Payment$PaymentMode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/domain/Payment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/domain/RateSettings$RateSettingsBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/domain/RateSettings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/domain/Trip$TripBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/domain/Trip.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/domain/TripStop$TripStopBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/domain/TripStop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/domain/Vendor$VendorBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/domain/Vendor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/domain/VendorLedger$VendorLedgerBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/domain/VendorLedger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/domain/VendorPayment$VendorPaymentBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/domain/VendorPayment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/domain/VendorRateOffset$VendorRateOffsetBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/domain/VendorRateOffset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/repository/AdminRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/repository/DailyRateRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/repository/DailySummaryRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/repository/DeliveryLineRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/repository/DriverRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/repository/OrderRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/repository/PaymentRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/repository/RateSettingsRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/repository/TripRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/repository/TripStopRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/repository/VendorLedgerRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/repository/VendorPaymentRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/repository/VendorRateOffsetRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/repository/VendorRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/security/TripSecurityService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/security/jwt/AuthFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/security/jwt/JwtUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/service/DashboardService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/service/DispatchService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/service/LedgerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/service/RateService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/service/ReconciliationService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/service/ReportService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/service/TripService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/service/VendorService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/web/AuthController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/web/DashboardController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/web/DispatchController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/web/DriverController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/web/GlobalExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/web/LedgerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/web/MobileController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/web/RateController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/web/ReconciliationController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/web/ReportController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/web/TripController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/web/VendorController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/web/dto/AssignOrdersRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/web/dto/AuthDtos$JwtResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/web/dto/AuthDtos$LoginRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/web/dto/AuthDtos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/web/dto/CreateOrderRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/web/dto/CreateTripRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/web/dto/DailyOverviewDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/web/dto/DailyTripSummaryDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/web/dto/DashboardSummary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/web/dto/DispatchDashboardDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/web/dto/DispatchDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/web/dto/EffectiveRateRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/web/dto/HistoricalRateDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/web/dto/LedgerEntryDto$LedgerEntryDtoBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/web/dto/LedgerEntryDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/web/dto/RateCardDto$VendorOffsetDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/web/dto/RateCardDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/web/dto/RecordPaymentRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/web/dto/TripDetailsDto$TripDetailsDtoBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/web/dto/TripDetailsDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/web/dto/UpdateOrderDetailsRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/web/dto/VendorFinancialSummaryDto$VendorFinancialSummaryDtoBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/web/dto/VendorFinancialSummaryDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/broiler/web/dto/VendorLedgerDto.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,18 +112,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "koil1693"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;koil1693&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/koil1693/Broiler-app.git",
-    "accountId": "d906c7bd-e85e-4ea5-b8f0-aabd51e195ad"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/koil1693/Broiler-app.git&quot;,
+    &quot;accountId&quot;: &quot;d906c7bd-e85e-4ea5-b8f0-aabd51e195ad&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -39,6 +138,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Koil/Vibe_Projects/Broiler_Management/Admin"
@@ -79,13 +179,22 @@
       <option name="project" value="LOCAL" />
       <updated>1764615224879</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="env changes 2">
+      <option name="closed" value="true" />
+      <created>1764615623324</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1764615623324</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="env changes" />
     <MESSAGE value="env changes 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="env changes 1" />
+    <MESSAGE value="env changes 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="env changes 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
