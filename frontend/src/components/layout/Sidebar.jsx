@@ -9,7 +9,8 @@ import {
     FileText,
     Calendar,
     ChevronLeft,
-    ChevronRight
+    ChevronRight,
+    User
 } from 'lucide-react';
 import { cn } from '../../utils/cn';
 
@@ -22,6 +23,7 @@ export default function Sidebar({ collapsed, onToggle }) {
         { path: '/dashboard', label: t('dashboard'), icon: LayoutDashboard },
         { path: '/dispatch', label: t('dispatch'), icon: Truck },
         { path: '/vendors', label: t('vendors'), icon: Users },
+        { path: '/drivers', label: 'Drivers', icon: User },
         { path: '/rates', label: t('rates'), icon: DollarSign },
         { path: '/reconciliation', label: t('reconciliation'), icon: FileText },
         { path: '/daily-overview', label: t('daily_overview'), icon: Calendar },
