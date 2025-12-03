@@ -68,7 +68,8 @@ export const VendorApi = {
 }
 
 export const DriverApi = {
-  list: () => apiFetch('/api/drivers')
+  list: () => apiFetch('/api/drivers'),
+  create: (driver) => apiFetch('/api/drivers', { method: 'POST', body: JSON.stringify(driver) })
 }
 
 export const DispatchApi = {

@@ -5,7 +5,7 @@ import { useTranslation } from 'react-i18next';
 export default function Navbar() {
     const { t, i18n } = useTranslation();
 
-    const linkClass = ({ isActive }) => 
+    const linkClass = ({ isActive }) =>
         `px-3 py-2 rounded-md text-sm font-medium ${isActive ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white'}`;
 
     const changeLanguage = (lng) => {
@@ -27,6 +27,7 @@ export default function Navbar() {
                                 <NavLink to="/dispatch" className={linkClass}>{t('dispatch')}</NavLink>
                                 <NavLink to="/rates" className={linkClass}>{t('rates')}</NavLink>
                                 <NavLink to="/vendors" className={linkClass}>{t('vendors')}</NavLink>
+                                <NavLink to="/drivers" className={linkClass}>Drivers</NavLink>
                                 <NavLink to="/reconciliation" className={linkClass}>{t('reconciliation')}</NavLink>
                                 <NavLink to="/daily-overview" className={linkClass}>{t('daily_overview')}</NavLink>
                                 <NavLink to="/payments/entry" className={linkClass}>{t('record_payment')}</NavLink>

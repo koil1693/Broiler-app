@@ -21,4 +21,9 @@ public class DriverController {
     public ResponseEntity<List<Driver>> getAllDrivers() {
         return ResponseEntity.ok(driverRepository.findAll());
     }
+
+    @org.springframework.web.bind.annotation.PostMapping
+    public ResponseEntity<Driver> createDriver(@org.springframework.web.bind.annotation.RequestBody Driver driver) {
+        return ResponseEntity.ok(driverRepository.save(driver));
+    }
 }
