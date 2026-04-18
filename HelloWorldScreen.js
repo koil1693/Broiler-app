@@ -1,24 +1,24 @@
-import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import React, { useState } from 'react';
+import { View, TextInput, Button, Alert } from 'react-native';
 
 const HelloWorldScreen = () => {
+  const [name, setName] = useState('');
+
+  const handleSubmit = () => {
+    Alert.alert(`Hello ${name}`);
+  };
+
   return (
-    <View style={styles.container}>
-      <Text style={styles.text}>Hello, World!</Text>
+    <View>
+      <TextInput
+        placeholder="Enter your name"
+        value={name}
+        onChangeText={setName}
+        style={{ borderWidth: 1, marginBottom: 10, padding: 10 }}
+      />
+      <Button title="Submit" onPress={handleSubmit} />
     </View>
   );
 };
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  text: {
-    fontFamily: 'Times New Roman',
-    fontSize: 20,
-  },
-});
 
 export default HelloWorldScreen;
